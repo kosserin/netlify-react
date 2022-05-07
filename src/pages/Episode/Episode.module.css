@@ -1,0 +1,34 @@
+.episode {
+    background-color: #080834;
+    width: 100%;
+    min-height: 100vh;
+    color: #dadada;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.episode p {
+    font-size: 3rem;
+}
+
+.episode button {
+    cursor: pointer;
+    text-decoration: none;
+    width: 200px;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadada;
+    border-radius: 5px;
+    color: #080834;
+    font-weight: 600;
+}
+
+.episode button:hover {
+    background-color: #bfbfbf;
+}

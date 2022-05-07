@@ -1,17 +1,12 @@
-import './App.css';
 import { Link } from 'react-router-dom';
+
+import styles from './App.module.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Andrija Kostic Frontend Test Netlify.
-        </p>
-        <Link to='/episodes'>
-          Learn How to Play WoW
-        </Link>
-      </header>
+    <div className={styles.app}>
+        <p>Andrija Kostic Frontend Test Netlify.</p>
+        <Link to='/episodes'>Learn How to Play WoW</Link>
     </div>
   );
 }

@@ -1,0 +1,60 @@
+.episodes {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #080834;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.episodes h1 {
+    color: #dadada;
+}
+
+.episodes ul {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+    width: 100%;
+    padding: 0 5vw;
+    gap: 1rem;
+}
+
+.episodes ul a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #dadada;
+    transition: 250ms ease-out;
+}
+
+.episodes ul a:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.episodes > a {
+    text-decoration: none;
+    width: 200px;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadada;
+    border-radius: 5px;
+    color: #080834;
+    font-weight: 600;
+}
+
+.episodes > a:hover {
+    background-color: #bfbfbf;
+}
